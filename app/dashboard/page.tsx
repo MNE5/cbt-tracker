@@ -28,7 +28,6 @@ const COGNITIVE_DISTORTIONS = [
   "Personalizing — Blaming yourself for things outside your control",
   "Blaming Others — It's always someone else's fault",
 ];
-];
 
 export default function DashboardPage() {
   const router = useRouter();
