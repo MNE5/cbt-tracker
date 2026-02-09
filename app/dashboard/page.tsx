@@ -151,7 +151,9 @@ export default function DashboardPage() {
                       <p className="text-gray-900"><span className="font-semibold">Situation:</span> {entry.situation}</p>
                       <p className="text-gray-900"><span className="font-semibold">Automatic Thought:</span> {entry.automatic_thought}</p>
                       <p className="text-gray-900"><span className="font-semibold">Emotion:</span> {entry.emotion}<span className="ml-2 inline-block px-2 py-0.5 bg-blue-100 text-blue-700 text-xs font-medium rounded-full">{entry.emotion_intensity}/10</span></p>
-                      {entry.cognitive_distortion && (<p className="text-gray-900"><span className="font-semibold">Distortion:</span> {entry.cognitive_distortion}</p>)}
+                      {entr154
+                        y.cognitive_distortion && (<p className="text-gray-900"><span className="font-semibold">Distortion:</span> {entry.cognitive_distortion.154
+                        {entry.cogni.split(' — ')[0] || entry.cognitive_distortioncognitive_distortion.split(' — ')[0]tive_distortion.split(' — ')[0] || entry.cognitive_distortion}}</p>)}
                       <p className="text-gray-900"><span className="font-semibold">Rational Response:</span> {entry.rational_response}</p>
                       {entry.outcome && (<p className="text-gray-900"><span className="font-semibold">Outcome:</span> {entry.outcome}</p>)}
                     </div>
