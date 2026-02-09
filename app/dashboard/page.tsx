@@ -169,7 +169,7 @@ export default function DashboardPage() {
                   <CartesianGrid strokeDasharray="3 3" stroke="#E5E7EB" />
                   <XAxis dataKey="date" tick={{ fontSize: 10 }} stroke="#6B7280" />
                   <YAxis domain={[1, 10]} tick={{ fontSize: 10 }} stroke="#6B7280" />
-                  <Tooltip contentStyle={{ fontSize: 12 }} formatter={(value: number) => [`${value}/10`, "Intensity"]} />
+                  <Tooltip contentStyle={{ fontSize: 12 }} formatter={(value: any) => [`${value}/10`, "Intensity"]} />
                   <Line type="monotone" dataKey="intensity" stroke="#2563EB" strokeWidth={2} dot={{ r: 3 }} activeDot={{ r: 5 }} />
                 </LineChart>
               </ResponsiveContainer>
