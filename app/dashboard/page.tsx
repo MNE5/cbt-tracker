@@ -14,7 +14,7 @@ interface Entry {
   rational_response: string; outcome: string;
 }
 
-const COGNITIVE_DISTORTIONS = COGNITIVE_DISTORTIONS = [
+const COGNITIVE_DISTORTIONS = [
   "All-or-Nothing — Seeing things as black or white, no middle ground",
   "Overgeneralizing — One bad event means everything will go wrong",
   "Catastrophizing — Expecting the worst possible outcome",
