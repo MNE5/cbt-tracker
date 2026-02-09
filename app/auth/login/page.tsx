@@ -3,6 +3,7 @@
 import type { FormEvent } from "react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { supabase } from "@/lib/supabaseClient";
 
 export default function LoginPage() {
@@ -25,7 +26,18 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
-        <h1 className="text-2xl font-bold text-gray-900 mb-6 text-center">Log in to CBT Tracker</h1>
+        <div className="flex flex-col items-center mb-6">
+          <Image
+            src="/Lumen+Therapy+Collective-+Logo.png"
+            alt="Lumen Therapy Collective logo"
+            width={60}
+            height={60}
+            className="rounded-md mb-3"
+          />
+          <h1 className="text-2xl font-bold text-gray-900 text-center">
+            Log in to Mood Tracker
+          </h1>
+        </div>
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>

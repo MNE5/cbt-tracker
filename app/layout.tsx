@@ -1,8 +1,9 @@
+import type { Metadata } from "next";
 import "./globals.css";
 
-export const metadata = {
-  title: "CBT Tracker",
-  description: "Track your cognitive behavioral therapy thought records",
+export const metadata: Metadata = {
+  title: "Mood Tracker",
+  description: "CBT Thought Record Tracker by Lumen Therapy Collective",
 };
 
 export default function RootLayout({
