@@ -14,12 +14,20 @@ interface Entry {
   rational_response: string; outcome: string;
 }
 
-const COGNITIVE_DISTORTIONS = [
-  "All or nothing thinking","Arbitrary inference","Catastrophizing","Emotional reasoning",
-  "Externalizing","Fortune telling","Mental filter","Personalizing","Self-blame",
-  "Mind reading","Should statements","Thought-action fusion","Labeling",
-  "Permissive thinking","Hindsight bias","Disqualifying the positive",
-  "Jumping to conclusions","Magnification and minimization","Overgeneralization","Social comparison",
+const COGNITIVE_DISTORTIONS = COGNITIVE_DISTORTIONS = [
+  "All-or-Nothing — Seeing things as black or white, no middle ground",
+  "Overgeneralizing — One bad event means everything will go wrong",
+  "Catastrophizing — Expecting the worst possible outcome",
+  "Mind Reading — Assuming you know what others think",
+  "Fortune Telling — Predicting negative outcomes without evidence",
+  "Mental Filter — Focusing only on negatives, ignoring positives",
+  "Discounting Positives — Dismissing good things that happen",
+  "Emotional Reasoning — Feelings are facts (I feel it, so it must be true)",
+  "Should Statements — Rigid rules about how things should be",
+  "Labeling — Calling yourself or others harsh names",
+  "Personalizing — Blaming yourself for things outside your control",
+  "Blaming Others — It's always someone else's fault",
+];
 ];
 
 export default function DashboardPage() {
