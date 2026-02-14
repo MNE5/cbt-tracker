@@ -42,7 +42,6 @@ export default function DashboardPage() {
   const [entries, setEntries] = useState<Entry[]>([]);
   const [loading, setLoading] = useState(false);
   const [showForm, setShowForm] = useStat
-      const getDistortionName = (distortion: string) => distortion.split(' — ')[0] || distortion;
   e(false);
   const [situation, setSituation] = useState("");
   const [automaticThought, setAutomaticThought] = useState("");
