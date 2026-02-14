@@ -104,6 +104,7 @@ export default function DashboardPage() {
           <h1 className="text-xl font-bold text-gray-900">Mood Tracker</h1>
         </div>
         <div className="flex items-center gap-4">
+                      <a href="/worksheets" className="px-4 py-1.5 text-sm text-blue-600 hover:text-blue-700 font-medium">CBT Worksheets</a>
           <span className="text-sm text-gray-500">{userEmail}</span>
           <button onClick={handleSignOut} className="px-4 py-1.5 text-sm bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg transition">Sign out</button>
         </div>
