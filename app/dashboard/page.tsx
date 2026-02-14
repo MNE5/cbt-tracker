@@ -31,18 +31,16 @@ const COGNITIVE_DISTORTIONS = [
 
 export default function DashboardPage() {
     const getDistortionName = (distortion: string) => {
-          34
-    const parts = distortion.split(/\s*\u2014\s*/);
+        const parts = distortion.split(/\s*\u2014\s*/);
           return parts[0] || distortion;
         };
   
   const router = useRouter();
   const [checking, setChecking] = useState(true);
-  const [userEmail, setUserEmail] = useState<string | n;
+  const [userEmail, setUserEmail] = useState<string | null>(null);
   const [entries, setEntries] = useState<Entry[]>([]);
   const [loading, setLoading] = useState(false);
-  const [showForm, setShowForm] = useStat
-  e(false);
+  const [showForm, setShowForm] = useState(false);
   const [situation, setSituation] = useState("");
   const [automaticThought, setAutomaticThought] = useState("");
   const [emotion, setEmotion] = useState("");
